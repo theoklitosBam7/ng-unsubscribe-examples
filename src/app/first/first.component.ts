@@ -5,11 +5,16 @@ import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-first',
-  template: `<p>first component works!</p>`,
+  template: `
+    <p>first component works!</p>
+    <p>{{ timer3$ | async }}</p>
+  `,
 })
 export class FirstComponent implements OnInit, OnDestroy {
   private timer1$ = timer(0, 1000);
   private timer2$ = timer(0, 2500);
+
+  timer3$ = timer(0, 1000);
 
   private subscription = new Subscription();
 
