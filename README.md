@@ -1,5 +1,9 @@
 # Avoid Memory Leaks
 
+Example repo for the blog post [Avoid Memory Leaks in Angular](https://www.bampouris.eu/blog/avoid-memory-leaks-angular).
+
+Switch to the appropriate branch to see the corresponding case.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
 ## Development server
